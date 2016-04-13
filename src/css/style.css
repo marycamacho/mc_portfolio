@@ -35,10 +35,12 @@ header h1 {
     position:relative;
     -webkit-perspective:1000;
     perspective:1000;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
     -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
 }
 
 .circle div {
